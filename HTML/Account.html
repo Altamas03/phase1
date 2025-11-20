@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+</head>
+<link rel="stylesheet" href="/CSS/Account.css">
+<body>
+    <div class="main">
+        <h2>Create your account <span class="star">&#9733</span></h2>
+        <p class="para">Sign up to access the practice dashboard.</p>
+        <form action="" onsubmit="return Account()">
+            <div class="input">
+                <div>
+                    <label for="fname" class="name" required>First name</label><br>
+                    <input type="text" id="fname" required placeholder="Enter first name">
+                </div>
+                
+                <div>
+                    <label for="lname" class="name">Last name</label><br>
+                    <input type="text" id="lname" placeholder="Enter last name">
+                </div>
+            </div>
+            <div class="input1">
+               <label for="email" class="name"  >Email</label><br>
+               <input type="email" id="email" required placeholder="Enter your email">
+               <p id="email-show-error" class="show-error"></p>
+            </div>
+            <div class="input input-pswrd">
+                <div>
+                    <label for="pswrd" class="name">Password</label><br>
+                    <input type="password" id="pswrd" required placeholder="Minimum 6 characters" >
+                    <p id="pass-show-error" class="show-error"></p>
+                </div>
+                <div>
+                    <label for="cnfpwd" class="name">Confirm password</label><br>
+                    <input type="password" id="cnfpwd" placeholder="Confirm your password">
+                    <p id="conf-show-error" class="show-error"></p>
+                </div>
+            </div>
+        
+        <hr id="hr">
+        <div class="check">
+           <input type="checkbox"  id="check" required>
+            <label for="check">  I agree to the  <span class="Terms"> Terms</span></label>
+        </div>
+        <button type="submit" class="create" id="save">Create Account</button>
+
+    </form>
+
+        <p id="msg">Already have an account? <span id="Sign">Sign in</span></p>
+        <button class="demo1" id="demo">Seed Demo Users</button>
+    </div>
+
+    <script src="/JAVASCRIPT/Account.js"></script>
+</body>
+</html>

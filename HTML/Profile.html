@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/CSS/Profile.css">
+</head>
+<body>
+<div id="main-container">
+        <!-- LEFT SIDE CONTENT -->
+
+    <div id="left-content">
+        <div class="user-info">
+            <div class="user-logo">DU</div>
+            <div class="emails">
+                <span id="name">Demo User</span><br>
+                <span class="email" id="name-email">demo@webtech.practice</span>
+            </div>
+        </div>
+        
+        <p class="dash"> DASHBOARD</p>
+
+        <div class="nav">
+            <div id="Overview">🏠 Overview</div>
+            <div id="Profile" class="active">👤 Profile Settings</div>
+            <div id="Security" >🔒 Security</div>
+            <div id="Notification">🔔 Notifications</div>
+        </div>
+
+        <p class="dash">QUICK ACTIONS</p>
+
+        <div class="nav">
+            <div id="Help">❓ Help & Support</div>
+        </div>
+        
+        <p class="dash">ACCOUNT</p>
+        <div class="nav">
+            <div id="SignOut">🧡 Sign Out</div>
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+
+    <div id="main-content">
+        <div class="heading">
+            <div>WebTech Practice   &#9679;Dashboard</div>
+            <button onclick=Theme()>🌗Theme</button>
+        </div>
+        <div class="main-dash">
+            <h3 class="head">Profile Settings</h3>
+            
+            <h4 class="prefer" >👤    Personal Information</h4>
+
+            <form action="">
+            <div class="inp-div">
+                <div>
+                    <label for="">Full Name</label><br>
+                    <input class="password" type="text" id="full" placeholder="Enter full name" required>
+                </div>
+                <div>
+                    <label for="">Date of Birth</label><br>
+                    <input class="password" type="date"  required>
+                </div>
+            </div>
+            <div class="inp-div">
+                <div>
+                    <label for="">Email Address</label><br>
+                    <input class="password" id="save" type="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="">Phone Number</label><br>
+                    <input class="password" type="tel" placeholder="Enter phone number" required>
+                </div>
+            </div>
+
+            <div class="add">
+               💡  <span class="bulb"> Address Information</span>
+            </div>
+            <div class="street">
+                <label for="">Street Address</label><br>
+                <input class="address" type="text" placeholder="Enter full address" required>
+            </div><br>
+            <div class="inp-div">
+                <div>
+                    <label for="">PIN Code</label><br>
+                    <input class="password" type="number" placeholder="Enter PIN" required>
+                </div>
+                <div>
+                    <label for="">City</label><br>
+                    <input class="password" type="text"  placeholder="Enter city name" required>
+                </div>
+            </div>
+            <div class="inp-div">
+                <div>
+                    <label for="">Country</label><br>
+                    <input class="password" type="text"  placeholder="Enter country name"  required>
+                </div>
+                <div>
+                    <label for="">Github Profile</label><br>
+                    <input class="password" type="text" placeholder="Enter profile" >
+                </div>
+            </div>
+            <span id="saved"></span>
+            <div class="button">
+                
+               <button type="button" class="abc" id="cancel">Cancel Changes</button>
+               <button type="submit" class="xyz" id="change">💾   Save Changes</button>
+            </div>
+        </form>            
+        
+
+
+        </div>    
+
+
+
+
+
+    </div>    
+</div>  
+  <script src="/JAVASCRIPT/Common.js"></script>
+  <script src="/JAVASCRIPT/Profile.js"></script>
+
+</body>
+</html>

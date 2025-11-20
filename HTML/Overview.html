@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link rel="stylesheet" href="/CSS/Overview.css">
+</head>
+<body>
+    
+
+    <div id="main-container">
+        <!-- LEFT SIDE CONTENT -->
+
+    <div id="left-content">
+        <div class="user-info">
+            <div class="user-logo">DU</div>
+            <div class="emails">
+                <span id="name">Demo User</span><br>
+                <span class="email" id="name-email" >demo@webtech.practice</span>
+            </div>
+        </div>
+        
+        <p class="dash"> DASHBOARD</p>
+
+        <div class="nav">
+            <div id="Overview" class="active">🏠 Overview</div>
+            <div id="Profile">👤 Profile Settings</div>
+            <div id="Security">🔒 Security</div>
+            <div id="Notification">🔔 Notifications</div>
+        </div>
+
+        <p class="dash">QUICK ACTIONS</p>
+
+        <div class="nav">
+            <div id="Help">❓ Help & Support</div>
+        </div>
+        
+        <p class="dash">ACCOUNT</p>
+        <div class="nav">
+            <div id="SignOut">🧡 Sign Out</div>
+        </div>
+
+    </div>
+    
+    <!-- MAIN CONTENT -->
+
+    <div id="main-content">
+        <div class="heading">
+            <div>WebTech Practice   &#9679;Dashboard</div>
+            <button onclick=Theme()>🌗Theme</button>
+        </div>
+
+        <div class="main-dash">
+            <h1>Welcome back,Demo user 👋</h1>
+            <p>Manage your profile settings and account preference.your data is securely stred in your browser's localStorage.</p>
+
+            <div class="card">
+                <div>&#127912;
+                    <br><span class="text">Theme</span><br>
+                    <span class="msg">Dark/Light mode presisted across <br>all pages</span>
+                    <hr  class="hr1">
+                </div>
+                <div>&#128272;
+                    <br><span class="text">Authentication</span><br>
+                    <span class="msg">Secure session store in browser <br>storage</span>
+                    <hr class="hr1">
+                </div>
+                <div>&#128221;
+                    <br><span class="text">Profile</span><br>
+                    <span class="msg">20% profile completed(1/5filled)</span>
+                    <hr class="hr3">
+                </div>
+                <div>&#128273;
+                    <br><span class="text">Security</span><br>
+                    <span class="msg">Password protection and account <br>security</span>
+                    <hr class="hr4">
+                </div>
+            </div>
+
+                <h1 class="quick">Quick Actions</h1>
+
+                <div class="card2">
+                    <div>✏️<br>
+                        <span class="l-txt">Edit Profile</span>
+                        <span class="l-txt2">Update your personal information</span>
+                    </div>
+                    <div>&#128274;<br>
+                        <span class="l-txt">Change Password</span>
+                        <span class="l-txt2">Update your account security</span>
+
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <script src="/JAVASCRIPT/Common.js"></script>
+</body>
+</html>

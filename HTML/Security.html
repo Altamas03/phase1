@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security</title>
+    <link rel="stylesheet" href="/CSS/Security.css">
+</head>
+<body>
+    
+    <div id="main-container">
+        <!-- LEFT SIDE CONTENT -->
+
+    <div id="left-content">
+        <div class="user-info">
+            <div class="user-logo">DU</div>
+            <div class="emails">
+                <span id="name" >Demo User</span><br>
+                <span class="email"  id="name-email" >demo@webtech.practice</span>
+            </div>
+        </div>
+        
+        <p class="dash"> DASHBOARD</p>
+
+       
+        <div class="nav">
+            <div id="Overview">🏠 Overview</div>
+            <div id="Profile" >👤 Profile Settings</div>
+            <div id="Security" class="active">🔒 Security</div>
+            <div id="Notification">🔔 Notifications</div>
+        </div>
+
+        <p class="dash">QUICK ACTIONS</p>
+
+        <div class="nav">
+            <div id="Help">❓ Help & Support</div>
+        </div>
+        
+        <p class="dash">ACCOUNT</p>
+        <div class="nav">
+            <div id="SignOut">🧡 Sign Out</div>
+        </div>
+
+    </div>
+    
+    <!-- MAIN CONTENT -->
+
+    <div id="main-content">
+        <div class="heading">
+            <div>WebTech Practice   &#9679;Dashboard</div>
+            <button onclick=Theme()>🌗Theme</button>
+        </div>
+
+        <div class="main-dash">
+            <h3 class="head">Security Settings</h3>
+            
+            <h4 class="prefer" >🔒  Change Password</h4>
+            <p class="state">Manage how and when you receive notifications about your account activity. </p>
+               
+            <div class="inp-div">
+                <div>
+                    <label for="">Current Password</label><br>
+                    <input class="password" id="password1" type="password" placeholder="Enter current password" required>
+                </div>
+                <div>
+                    <label for="">New Password</label><br>
+                    <input class="password" id="password2" type="password" placeholder="Minimum 6 characters" required>
+                </div>
+            </div>
+            <div>
+                <label for="">Confirm New Password</label><br>
+                <input class="pass" id="password3" type="password" placeholder="Confirm New Password" required>
+            </div>
+            <div class="updates">
+                <span id="popup"></span>
+
+                <button type="button" id="update">Update Password</button>
+                <button type="button" id="clear">Clear</button>
+            </div>
+            
+            <div class="last-div">
+                <h4 class="prefer" >🛡️  Security Information</h4>
+                <div class="card">
+                    <div>
+                        📅<span class="msg1">Acces granted</span>
+                        <span class="msg2">9/4/2025</span>
+                    </div>
+                    <div>
+                        🔄<span class="msg1">Last Updated</span>
+                        <span class="msg2">Never Updated</span>
+                    </div>
+                    <div>
+                        🏢<span class="msg1">Session</span>
+                        <span class="msg2">Current Browser Session Active</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="/JAVASCRIPT/Common.js"></script>
+    <script src="/JAVASCRIPT/Security.js"></script>
+
+
+</body>
+</html>

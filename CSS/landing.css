@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f2548;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+#main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    border-left: 1px solid black;
+    box-shadow: 0 0 5px black;
+    background-color: #282846;
+
+    /* padding: 20px; */
+    color:  rgb(195, 66, 255);
+    font-size: 18px;
+    font-weight: bold;
+    height: 55px;
+    padding-top: 20px;
+}
+button{
+    height: 38px;
+    width: 95px;   
+    background-color: #2d395c;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#nav{
+    display: flex;
+    gap: 10px;
+    margin-left: 640px;
+}
+#nav button:nth-child(5){
+    background-color: #3B82F6;
+}
+.web{
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.main{
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: #0a1128;
+    height: 580px;
+    display: flex;
+}
+.left{
+    width: 46%;
+    margin-left: 55px;
+}
+
+.content{
+    color: white;
+     font-size: 50px; 
+    padding-top: 50px;
+
+}
+.para{
+    margin-top: -10px;
+    color: #adadad;
+    font-size: 18px;
+     
+}
+.same{
+    margin-bottom:-10px;
+    font-size: 20px;
+}
+#button{
+    display: flex;
+    margin-top: 35px;
+}
+#get{
+    width: 130px;
+    height: 44px;
+    background-color: #3B82F6;
+}
+#already{
+    width: 230px;
+    height: 44px ;
+    margin-left: 10px;
+    background-color: #1a1a2e;
+}
+.right{
+    width: 600px;
+    height: 400px;
+    background-color: #1a1a2e;
+    margin-top: 110px;
+    border-radius: 20px;
+    text-align: center;
+}
+#down{
+    margin-top: 110px;
+}
+#down p{
+    margin-top: 40px;
+    margin-bottom: -30px;
+    color: #adadad;
+    font-size: 20px;
+}
+#comp{
+    color: white;
+}
+#compare,#compare1{
+    width: 60px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    right: 595px;
+    bottom: 270px;
+    background-color: #1a1a2e;
+}
+#compare1{
+    position: absolute;
+    right: 80px;
+}
+ .vert{
+    display: flex;
+   margin-left: 260px;
+   margin-top: 120px;
+    gap: 5px;
+   
+}
+.vert button{
+    width: 20px;
+    height: 15px;
+}
+
+  
+.write{
+    width: 100%;
+    height: 250px;
+    background-color: #233253;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.write h2{
+    color: white;
+    font-size: 40px;
+}
+.write p{
+    color: #adadad;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: #191e39;
+    width: 100%;
+    height: 540px;
+    padding-top: 80px;
+
+}
+.info >div{
+    display: flex;               
+    justify-content: center;    
+    align-items: center;
+    margin: 5px;
+    margin-left: 155px; 
+    height: 60px;
+    width: 1000px;
+    background-color: #352c70;
+    border: 1px solid #adadad;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    background-color: #040720;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.last h2{
+    color: white;
+    font-size: 40px;
+}
+.last1{
+    /* background-color: #040720; */
+    width: 100%;
+    height: 580px;
+    padding-top: 40px;
+}
+.same1{
+    display: flex;
+    padding-left: 160px;
+}
+.about{
+    margin: 10px;
+    height: 150px;
+    width: 460px;
+    border-radius: 15px;
+    border: 1px solid #adadad;
+    color: white;
+    padding-left: 15px;
+    background-color: #1a1a2e;
+}
+.about p {
+    margin-bottom: -4px;
+    color: #adadad;
+}
+.quote{
+    display: flex;
+    gap: 15px;
+}
+.quote div{
+
+   margin: 20px 20px;
+   margin-left: 480px;
+  
+}
+.quote p{
+    color: #adadad;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+#dots button.active {
+    background-color: #3B82F6; 
+  }

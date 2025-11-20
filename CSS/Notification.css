@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f2548;
+  
+
+}
+#main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#left-content{
+    width: 260px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    background-color: #171f38;
+}
+.user-info{
+    display: flex;
+    height: 50px;
+    gap: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    box-shadow: 0 0 5px 0 black;
+    background-color: #2d395c;
+    
+}
+.user-logo{
+    width: 55px;
+    height: 50px;
+    background: linear-gradient(to right,rgb(83, 83, 255),rgb(149, 0, 198));
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display: block;
+}
+.email{
+    color: #c3c3c3;
+}
+.dash{
+    color: #adadad;
+    font-size: small;
+    font-weight: lighter;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav > div{
+    width: 70%;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: small;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.nav > div:hover{
+    background-color: #202f50;
+    border-left: 3px solid #003cff;
+    border-right: 2px solid black;   
+    cursor: pointer;
+}
+#main-content{
+    width: 100%;
+    overflow: hidden;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    border-left: 1px solid black;
+    box-shadow: 0 0 5px black;
+    background-color: #2d395c;
+    padding: 20px;
+    color:  rgb(195, 66, 255);
+    font-size: medium;
+    font-weight: bold;
+}
+button{
+    position: absolute;
+    right: 50px;
+    background-color: #2d395c;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 20px;
+    padding: 3px 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-dash{
+    font-family: Arial, sans-serif; 
+    margin: 50px ;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 80%;
+    height: 65%;
+    background-color: #171f38;
+    color: white;
+    padding: 30px;
+    padding-top: 30px;
+    box-shadow: 0 0 10px 0 black;
+    border: 2px solid rgb(80, 100, 181);
+    transition: box-shadow 0.3s;
+
+}
+.main-dash:hover{
+    box-shadow: 0 0 5px rgb(80, 100, 181);
+}
+.head{
+    margin-top: 0px;
+}
+.prefer{
+    margin-top: 2px;
+}
+.state{
+    font-size: smaller;
+    margin-top: -1px;
+    color: #adadad;
+}
+.info{
+    display: flex;
+    margin-left: -5px;
+}
+.info > div {
+    background-color: #1b264e;
+    height: 120px;
+    width: 500px;
+    padding-left: 12px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.info>div:hover{
+    box-shadow: 0 0 10px  rgb(80, 100, 181);
+
+}
+
+.email{
+    margin-top: -8px;
+    font-size: small;
+    font-weight: bold;
+}
+.update{
+    font-size: small;
+    color: #adadad;
+    margin-top: 8px;
+}
+.input{
+    margin-left: 0px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    
+}
+input[type="checkbox"]{
+    accent-color: brown;
+}
+.text{
+    font-size: small;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.activity{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.info1{
+    background-color: #1b264e;
+    height: 120px;
+    width: 96%;
+    border-radius: 20px;
+   
+    padding: 15px;
+    padding-top: 0px;
+
+}
+.info1:hover{
+    box-shadow: 0 0 10px  rgb(80, 100, 181);
+
+}
+.Today{
+    margin-top: 5px;
+}
+#Notification.active{
+    background-color: #202f50;
+    border-left: 3px solid #003cff;
+    border-right: 2px solid black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CSS/Login.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2 id="Welcome">Welcome Back 👋</h2>
+        <p class="msg1">Sign in to continue to your dashboard</p>
+
+        <form onsubmit="return Signin()">
+            
+            <label for="email" class="inp-det">Email Address</label>
+            <input type="email" id="email" required placeholder="Enter your email">
+
+            <p id="email-show-error" class="show-error"></p>
+
+            <label for="password" class="inp-det">Password</label>
+            <input type="password" id="password" required placeholder="Enter your password">
+            <p id="pass-show-error" class="show-error"></p>
+
+            <div class="checkbox-row">
+                <input type="checkbox" id="remember"> 
+                <label for="remember">Remember me for 30 days</label> 
+                <span id="forget" >Forgot Password?</span>
+            </div>
+
+            <button type="submit" id="submit">Sign In</button>
+
+            <p class="msg">New to WebTech Practice? <span id="create">Create an account</span></p>
+            <button id="demo" type="button">&#9889 Quick Demo</button>
+        </form>
+    </div>
+
+    <button id="tips" >💡 Tips</button>
+
+    
+
+    <script src="/JAVASCRIPT/Login.js"></script>
+    <script src="/JAVASCRIPT/Common.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <link rel="stylesheet" href="/CSS/Notification.css">
+</head>
+<body>
+    
+ <div id="main-container">
+        <!-- LEFT SIDE CONTENT -->
+
+    <div id="left-content">
+        <div class="user-info">
+            <div class="user-logo">DU</div>
+            <div class="emails">
+                <span id="name">Demo User</span><br>
+                <span class="email" id="name-email">demo@webtech.practice</span>
+            </div>
+        </div>
+        
+        <p class="dash"> DASHBOARD</p>
+        <div class="nav">
+            <div id="Overview">🏠 Overview</div>
+            <div id="Profile" >👤 Profile Settings</div>
+            <div id="Security" >🔒 Security</div>
+            <div id="Notification" class="active">🔔 Notifications</div>
+        </div>
+
+        <p class="dash">QUICK ACTIONS</p>
+
+        <div class="nav">
+            <div id="Help">❓ Help & Support</div>
+        </div>
+        
+        <p class="dash">ACCOUNT</p>
+        <div class="nav">
+            <div id="SignOut">🧡 Sign Out</div>
+        </div>
+
+    </div>
+    
+    <!-- MAIN CONTENT -->
+
+    <div id="main-content">
+        <div class="heading">
+            <div>WebTech Practice   &#9679;Dashboard</div>
+            <button onclick=Theme()>🌗Theme</button>
+        </div>
+
+        <div class="main-dash">
+            <h3 class="head">Notifications</h3>
+            
+            <h4 class="prefer" >🔔     Notification Preferences</h4>
+            <p class="state">Manage how and when you receive notifications about your account activity. </p>
+            <div class="info">
+                <div class="card">
+                    
+                      <p>✉️</p> 
+                      <span class="email">Email Notifications</span>
+                      <span class="update">Receive important updates via email</span>
+                     <label class="input">
+                        <input type="checkbox" checked>
+                       <span class="text">Enable email notifications </span>
+                     </label>
+                 
+                </div>
+                <div class="card">
+                   
+                        <p>🔒</p> 
+                        <span class="email">Security Alerts</span>
+                        <span class="update">Get notified about security changes</span>
+                       <label class="input">
+                          <input type="checkbox" checked>
+                         <span class="text">Enable security alerts </span>
+                       </label>
+                   
+                </div>
+                
+            </div>
+            
+                    <h4>📅 Recent Activity</h4>                     
+                <div class="info1">
+                    <p>✅</p> 
+                    <span class="email">Profile Updated</span>
+                    <span class="update">Your profile information was successfully updated <br><span class="Today">Today</span></span>
+                    
+                </div>    
+                
+
+        </div>
+
+    </div>
+
+
+ </div>
+ <script src="/JAVASCRIPT/Common.js"></script>
+
+
+</body>
+</html>
